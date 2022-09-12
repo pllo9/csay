@@ -1,0 +1,401 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%}
+q:before,q:after{content:''}
+fieldset,img,abbr,acronym{border:0}
+
+/* basic */
+.c:before,.c:after {content:"";display:table;}
+.c:after {clear:both}
+.c {zoom:1}
+body {padding-top:42px;font-family:"\5FAE\8F6F\96C5\9ED1";font-size: 12px;background-color: #f5f0e9}
+a {text-decoration:none;overflow:hidden;}
+a:hover {text-decoration:none;}
+.wrap1,.wrap2,.wrap3,.wrap4,#afooter {width:100%;min-width:1200px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1202?'1200px':'');}
+.wrap1 {background:#3a0f0b url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/bg1.jpg) no-repeat 50% 0;position: relative;}
+.wrap2 {background:url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/bg2.jpg) no-repeat 50% 2219px;padding-bottom: 48px;}
+.container {width:1200px;margin:0 auto}
+.hide {display:block;width:0;height:0;overflow:hidden;}
+.pr {position:relative;}
+.pa {position:absolute;}
+.fl{float: left;}
+.fr{float: right;}
+img{display: block;}
+.db{display: block;text-indent: -999em;}
+.sp{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/sp1.png) no-repeat;}
+:focus{outline: none;}
+.last{margin-right: 0!important;}
+/* footer */
+#afooter{text-align:center; line-height:20px;color: #6a6a6a;background-color: #0e0e0e;padding: 20px 0;}
+#afooter a{ color: #6a6a6a;}
+a:hover{filter: brightness(1);-webkit-filter: brightness(1.1);}
+
+@font-face { font-family: "font"; src: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/font.ttf); }
+/* head */
+.head{height: 1080px;}
+.logo1{background-position: -20px -19px;width: 181px;height: 51px;display: block;position: absolute;top: 47px;left: -235px;z-index: 9;}
+.logo2{background-position: -207px -14px;width: 169px;height: 55px;display: block;position: absolute;top: 47px;left: -52px;z-index: 9;}
+.logins{width: 100%;position: absolute;bottom: 16px;left: 0;font-size: 20px;text-align: center;line-height: 1.2;color: #fff;z-index: 9;}
+.logins a{color: #fff;}
+
+.par{padding-top: 10px;}
+.area{width: 1200px;margin: 0 auto;}
+.area a{width: 393px;height: 103px;display: block;font-size: 0;}
+.btn_buy1{background-position: -30px -109px;float: left;}
+.btn_buy2{background-position: -433px -109px;float: left;margin-left: 10px;}
+.btn_buy3{background-position:-835px -109px;float: right;}
+.djqbox{margin-top: 33px;}
+.pnum{border: 4px solid #a05b35;width: 560px;height: 52px;display: block;line-height: 40px;color: #ffc693;font-size: 20px;box-sizing: border-box;padding: 0 44px;float: left;border-radius: 30px;}
+.btn_look{color: #ffc693;font-size: 24px;text-decoration: underline;display: block;float: right;width: 350px;text-align: center;vertical-align: bottom;padding-top: 20px;}
+.lottery{width: 1203px;margin: 27px auto 0;}
+.lottery1{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pc_lottery.png) no-repeat;width:1203px;height: 773px;display: block;position: relative;}
+.btn_box{position: absolute;left: 487px;bottom: 0;width: 227px;height: 130px;z-index: 9999;overflow: visible;}
+.btn_box:hover .pop_s{display: block;}
+.pop_s{position: absolute;top: -354px;left: -158px;display: none;}
+.lotxtx{position: absolute;top: 431px;left: 289px;width: 630px;z-index: 99;}
+.ltxt{width: 630px;height: 52px;border: 4px solid #a05b35;border-radius: 30px;box-sizing: border-box;padding: 0 32px;}
+.ltxt p{width: 277px;float: left;color: #ffc693;font-size: 18px;line-height: 44px;}
+.ptxts{color: #cf9a6a;font-size: 20px;line-height: 1.4;text-align: center;padding-top: 8px;}
+.ptxts span{ color: #ff9230; }
+.ptxts1{color: #cf9a6a;font-size: 18px;line-height: 1.4;text-align: center;}
+.btn_cj10{width: 318px;height: 81px;display: block;position: absolute;top: 119px;right: -21px;font-size: 0;}
+.btn_cj1{width: 318px;height: 81px;display: block;position: absolute;top: 119px;left: -21px;font-size: 0;}
+.boxmain{padding-top: 84px;width: 1040px;}
+.box_c{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/box_bg1.png) no-repeat -60px 0;width:697px;height: 319px;float: left;margin-top: -70px;box-sizing: border-box;padding: 70px 0 0 147px;margin-left: -91px;}
+.btit{text-align: center;color: #ffc693;font-size: 38px;line-height: 1.1;font-weight: bold;}
+.btit em{width: 29px;height: 23px;display: inline-block;vertical-align: middle;margin: 0 10px;}
+.b_l{background-position: -621px -8px;}
+.b_r{background-position: -624px -42px;}
+.ztxbox{padding: 30px 74px 0 254px;}
+.ztxbox p{color: #fcbb8f;font-size: 16px;line-height: 1.4;padding: 9px 0 0 10px;}
+.btn_looks{background-position:-395px -13px;width: 208px; height: 49px;display: block;margin: 0 auto 0;font-family: "font"; color: #371a09;font-size: 22px;text-align: center;line-height: 49px;}
+.box_r{width: 375px;float: right;box-sizing: border-box;height: 177px;}
+.list_intr{color: #fcbb8f;font-size: 14px;line-height: 1.4;margin-top: 15px;}
+.list_intr li{width: 100%;text-align: center;}
+
+
+.par1{margin-top: 80px;}
+.par1 h2{background-position: -35px -503px; width: 1170px; height: 90px;display: block;margin: 0 auto;}
+.tit_ct{color: #e6b697;font-size: 16px;text-align: center;line-height: 1.3;padding-top:20px;}
+.list_prop{margin: 47px auto 0;width: 1200px;}
+.list_prop li{width: 291px;float: left;position: relative;margin: 0 4px;}
+.list_prop li img{width: 291px;height: 168px;display: block;margin: 0 auto;}
+.list_prop li p{color: #ffd6a2;font-size: 18px;text-align: center;line-height: 1.2;position: absolute;top: 138px;width: 100%;}
+.btn_dh{background-position:-26px -236px; width: 278px; height: 66px;display: block;margin: 14px auto 0;color: #371a09;font-size: 28px;font-family: "font"; text-align: center;line-height: 66px;}
+.btn_dh.grey{background-position: -319px -236px;color: #2b2b2b;}
+.list_props{margin: 35px auto 0;width: 1200px;}
+.list_props li{width: 291px;float: left;margin: 0 4px 14px;position: relative;}
+.list_props li img{width: 291px;height: 168px;display: block;margin: 0 auto;}
+.list_props li p{color: #ffd6a2;font-size: 18px;text-align: center;position: absolute;top: 138px;width: 100%;}
+.list_props1{margin: 20px auto 0;width: 1200px;}
+.list_props1 li{width: 237px;float: left;margin: 0 1px 32px;position: relative;}
+.list_props1 li img{width: 237px;height: 136px;display: block;margin: 0 auto;}
+.list_props1 li p{color: #ffd6a2;font-size: 16px;text-align: center;position: absolute;top: 108px;width: 100%;}
+.btn_dhs{background-position:-630px -240px; width: 226px; height: 54px;display: block;margin: 14px auto 0;color: #371a09;font-size: 22px;font-family: "font"; text-align: center;line-height: 54px;}
+.btn_dhs.grey{background-position: -319px -236px;color: #2b2b2b;}
+.lucky{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/lucky_bg.png) no-repeat 50% 30px;width: 1202px;height: 450px;display: block;margin: 30px auto 0;box-sizing: border-box;padding: 0 16px;}
+/* .lucky_l{width: 578px;float: left;} */
+.lucky_l p,.lucky_r p{color: #fff6ca;font-size: 17px;text-align: center;line-height: 38px;margin-top: 10px;}
+.lucky_l p span,.lucky_r p span{padding-left: 15px;}
+.lbtn{width: 552px;margin-top:290px;}
+.lucky_l .lbtn{margin:290px 205px 0;}
+.btn_dhw{background-position:-1294px -394px; width: 273px; height: 52px;display: block;color: #371a09;font-size:17px;text-align: center;line-height: 52px;font-weight: bold;}
+.btn_dhw.grey{background-position: -1599px -394px;color: #2b2b2b;}
+.lucky_r{width: 526px;float: right;}
+.lucky_r .btn_lucky{text-align: right;}
+.lucky_r .lbtn{margin: 290px 0 0 -38px;}
+.btn_lucky{display: block;color: #ffc89b;font-size: 18px;line-height: 1.2;text-decoration: underline;padding-left: 15px;}
+
+.lucktxt2{width: 600px;height: 44px;display: block;color: #ffc89b!important;text-align: center;padding-top: 27px;margin-left: -25px;}
+.lucktxt2 span{padding-left: 51px;}
+.lucktxt2 span em{ color: #ffc54a; }
+.lucky_l .lucktxt2{float: right;width: auto;}
+
+.par2{margin-top: 50px;position: relative;z-index: 9;}
+.par2 h2{background-position:-12px -636px; width: 1330px; height: 104px;display: block;margin: 0 -65px;}
+.par2 .tit_ct{color: #e6b697;font-size: 20px;}
+.p2prop{width: 1150px;margin: 36px auto 0;}
+.p2prop div{width: 370px;float: left;margin-right: 18px;position: relative;}
+.p2prop div p{color: #ffd6a2;font-size: 18px;text-align: center;line-height: 48px;position: absolute;width: 100%;top: 164px;}
+.btn_lq{background-position:-36px -1205px; width: 333px; height: 78px;display: block;color: #371a09;font-size: 40px;text-align: center;line-height: 78px;margin-top: 63px;font-family: "font";}
+.btn_lq.grey{background-position: -394px -1205px;color: #2b2b2b;}
+
+
+.par3{padding-top: 80px;}
+.par3 h2{background-position:0 -766px; width: 1382px; height: 105px;display: block;margin:0 -91px;}
+.p3btn{margin: 23px auto 0;width: 952px;}
+.p3btn a{text-align: center;color: #371a09;font-size: 40px;margin: 0 auto;display: block;font-family: "font";}
+.btn_cqxl{background-position: -34px -1331px; width: 433px; height: 78px;line-height: 78px;}
+.btn_qrxl{background-position:-494px -1344px; width: 341px; height: 57px;text-align: center;line-height: 57px;color: #371a09;font-size: 20px;font-weight: bold;display: block;position: absolute;bottom: 56px;left: 50%;margin-left: -168px;}
+.input{text-align: center;margin: 33px auto 0;background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/serial_bg.png) no-repeat;width: 1202px;height: 435px;box-sizing: border-box;padding: 7px 396px;position: relative;}
+.input input{border: none;width: 43px;height: 44px;display: inline-block;background: transparent;margin: 0 10px;color: #65462c;font-size: 20px;text-align: center;line-height: 44px;font-weight: bold;}
+.p3num{color: #fff6ca;font-size: 17px;line-height: 44px;position: absolute;bottom: 2px;text-align: center;left: 0;width: 100%;}
+.p3num em{color: #ffe866;}
+.luckbtn{width: 342px;float: right;padding-top: 5px;}
+.luckbtn p{color: #daab74;font-size: 18px;line-height: 1.2;text-align: center;padding-top: 10px;position: relative;}
+/* left: -300px;width: 800px */
+.luckbtn p em{ color: #ffe866;; }
+.luckbtn a{line-height: 82px!important;padding: 0!important;}
+
+.par3 h3{font-size: 30px;padding-top: 50px;}
+.list_serial{margin-top: 15px;}
+.list_serial li{width: 226px;float: left;margin: 0 18px;}
+.serial{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/serial_bg1.png) no-repeat;width: 211px;height: 210px;box-sizing: border-box;padding-top: 52px;margin: 0 auto;}
+.serial p{color: #ffe9ce;font-size: 76px;text-align: center;line-height: 98px;}
+.serial span{color: #ffe9ce;font-size: 20px;text-align: center;line-height: 1.2;width: 100%;display: block;padding-top: 15px;letter-spacing: 2px;}
+.btn_dz{background-position:-766px -1218px; width: 226px; height: 54px;display: block;margin: 16px auto 0;color: #371a09;font-size: 26px;line-height: 54px;text-align: center;font-family: "font";}
+.p3btn1{width: 1095px;margin: 24px auto 0;}
+.p3btn1 a{background-position: -1482px -1327px; width: 333px; height: 78px;text-align: center;line-height: 1.2;color: #371a09;font-size: 30px;font-family: "font"; box-sizing: border-box;padding-top: 12px;margin-right: 34px;display: block;}
+.p3btn1 a span{text-align: center;font-size: 18px;display: block;font-weight: normal;}
+.list_card{margin: 50px auto 0;background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/card_box.png) no-repeat;width: 1202px;height: 707px;box-sizing: border-box;padding: 63px 75px 0;}
+.list_card li{width: 140px;float: left;margin:0 34px 40px;cursor: pointer;}
+.list_card li p{color: #ffddad;font-size: 16px;text-align: center;line-height: 1.2;}
+/* width: 180px */
+.list_card li p em{ color: #ffe866; }
+.card_bg{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/card_bg.png) no-repeat;width: 131px;height: 189px;display: block;margin: 13px auto 0;background-size: 100% 100%;}
+.card_bg img{width: 100%;}
+.btn_xz{background-position: -1019px -1222px; width: 139px; height: 33px;display: block;color: #371a09;font-size: 16px;text-align: center;line-height: 33px;font-family: "font"; margin: 16px auto 0;}
+.list_card li.on .card_bg{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/card_bg_on.png) no-repeat;background-size: 100% 100%;}
+.dqnum{width: 960px;margin: 50px auto 0;}
+.dqnum p{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/dqnum_bg.png) no-repeat;width: 258px;height: 149px;box-sizing: border-box;padding: 3px;color: #ffd6a2;font-size: 28px;text-align: center;line-height: 56px;float: left;margin-right: 49px;}
+.dqnum p span{display: block;line-height: 84px;font-size: 42px;font-weight: bold;}
+.dqbtn{width: 342px;float: right;}
+.dqbtn a{background-position: -1489px -1213px; width: 333px; height: 78px;text-align: center;line-height: 78px;color: #371a09;font-size: 34px;font-family: "font"; display: block;margin-top: 20px;}
+.dqbtn span{color: #ffb888;font-size: 18px;text-align: center;line-height: 1.2;padding-top: 10px;display: block;}
+.serialbox{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/serial_bg2.png) no-repeat;width: 1202px;height: 435px;margin: 26px auto 0;box-sizing: border-box;padding: 35px 72px 0;}
+.sernum{color: #ffd7a5;font-size: 18px;text-align: center;line-height: 1.2;}
+.sernum em{ color: #ffe866; }
+
+.par4{padding-top: 80px;}
+.par4 h2{background-position:0 -912px; width: 1380px; height: 104px;display: block;margin:0 -90px;}
+.p4num{margin-top: 30px;}
+.p4num p{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/p4num_bg.png) no-repeat;width: 362px;height: 210px;box-sizing: border-box;padding: 5px;color: #ffd6a2;font-size: 28px;line-height: 78px;text-align: center;float: left;margin: 0 14px;}
+.p4num p span{font-size: 68px;display: block;line-height: 116px;}
+.p4num a{background-position:-1471px -1451px; width: 380px; height: 90px;text-align: center;line-height: 90px;color: #371a09;font-size: 30px;font-weight: bold;display: block;float: left;margin: 60px 12px 0;}
+.p4box{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/p4box_bg.png) no-repeat;width: 1202px;height: 834px;box-sizing: border-box;padding-top: 69px;margin: 40px auto 0;}
+.btn_qrtj{background-position:-39px -1456px; width: 440px; height: 90px;color: #371a09;font-family: "font"; font-size: 30px;text-align: center;line-height: 90px;margin: 0 auto;display: block;}
+.item{width: 100%;height: 86px;line-height: 86px;background-color: #ffdfa1;margin-top: 44px;box-sizing: border-box;padding: 0 50px;color: #371a09;font-size: 25px;text-align: center;}
+.item span{display: block;float: left;}
+.i_t1{width: 24%;}
+.i_t2{width: 20%;}
+.tabox{width: 1033px;margin: 3px auto 0;height: 420px;overflow: auto;}
+.tabox table{width: 100%;}
+.tabox table tr{border-bottom: 2px solid #b7514c;height: 138px;}
+.tabox table tr td{color: #ffd6a1;font-size: 20px;text-align: center;line-height: 1.2;}
+.hd_bg{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/hd_bg.png) no-repeat;width: 112px;height: 123px;box-sizing: border-box;padding: 20px 15px;margin: 0 auto;}
+.hd_bg img{width: 100%;height: 100%;object-fit:cover;display: block;overflow: hidden;border-radius: 50%;}
+.tabox table tr a{background-position: -536px -1461px; width: 226px; height: 41px;text-align: center;line-height: 41px;color: #371a09;font-size: 20px;font-family: "font"; display: block;margin: 12px auto 0!important;float: none;}
+.btn_share1{margin: 0 auto;}
+.codebox{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/sharbox.png) no-repeat;width: 1202px;height: 485px;margin: 36px auto 0;box-sizing: border-box;padding: 80px 150px 0;}
+.codebox .ptxt{font-size: 16px!important;color:#ffdeb0;}
+.codebox .code_box{ margin-top: 40px; }
+
+.par5{padding-top: 80px;}
+.par5 h2{background-position:-49px -1045px; width: 1170px; height: 104px;display: block;margin: 0 auto;}
+.rule{display: block;margin: 15px auto 0;box-sizing: border-box;padding: 10px 40px;}
+.box4_list li{font-size: 18px;padding-left: 30px;color: #f2ab8c; line-height: 1.3;margin-bottom: 6px;position: relative;}
+.box4_list li i{font-style: normal;position: absolute;top: 0;left: 0;}
+
+
+/*pop*/
+.pop{width: 840px;background-color: #fceedd;padding: 15px 20px;position: relative;
+     display: none;
+ }
+.close{background-position: -1781px -45px; width: 28px; height: 28px;position: absolute;right: -25px;top: -20px;}
+.p_tit{color: #8e6a43;font-size: 32px;text-align: center;line-height: 1.2;position: relative;font-weight: bold;}
+.dia-con,.scrobar{width: 824px;margin: 20px auto 0;background-color:#7a2e29 ;}
+.tab{width: 100%}
+.tab th:last-child,.tab td:last-child{border-right: none;}
+.tab th{font-size: 22px;color: #ffffff;text-align: center;height: 50px;line-height: 50px;font-weight: bold;background-color: #510e0e;border-right: 1px solid #813834;border-bottom: 1px solid #813834;}
+.tab td{font-size: 18px;color: #ffffff;text-align: center;line-height: 25px;padding: 10px 0;border-right: 1px solid #813834;border-bottom: 1px solid #813834;background-color: #7a2e29;}
+.page{font-size: 18px;color: #ffffff;text-align: center;height: 50px;line-height: 50px;background-color: #7a2e29;}
+.page a{color: #ffffff;}
+.tips{font-size: 18px;color: #ffffff;text-align: center; font-weight: bold;line-height: 35px;padding: 10px 1px;}
+.scrobar{width: 100%;height: 255px;overflow-x: hidden;overflow-y: auto;}
+:focus{outline: none;}
+
+/* 礼包记录 */
+.pop-lbjl{ width: 693px; height: 590px; background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop-lbjl.png) no-repeat 50% 0; box-sizing: border-box; padding-top: 70px;}
+.pop-lbjl .dia-con{ width: auto; }
+.pop-lbjl .dia-con .tab th{ background-color: #510e0e; }
+.pop-lbjl .dia-con .tab td{ background-color: #7a2e29; }
+
+/* 暂存箱 */
+.pop-zcx{ width: 698px; height: 590px; background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop-zcx.png) no-repeat 50% 0; box-sizing: border-box; padding-top: 70px; }
+.pop-zcx .pop-zcx-box{ display: flex; justify-content: space-between; }
+.pop-zcx .pop-zcx-box .box-l{ width: 370px;}
+.pop-zcx .pop-zcx-box .box-r{width: 263px;}
+.pop-zcx .pop-zcx-box .scrobar{ height: 370px;overflow: auto; }
+.pop-zcx .pop-zcx-box .box-r .scrobar{height: 420px;}
+.pop-zcx .pop-zcx-box .tab th{font-size: 17px;height: 60px;}
+
+
+
+/* 好友分享 */
+.pop1{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop1.png) no-repeat;width: 693px;height: 520px;box-sizing: border-box;padding: 56px 20px 30px;}
+.ptxt{font-size: 20px;text-align: center;line-height: 1.2;color: #ffe7e6;padding: 30px 0 15px;}
+.btn_jies{background-position: 0 -1173px;width: 412px;height: 87px;display: block;margin: 0 auto;}
+.ptbn{width: 457px;margin: 50px auto 0;}
+.btn_yes{background-position: -55px -1586px; width: 186px; height: 54px;display: block;font-size: 0;}
+.btn_no{background-position: -346px -1586px; width: 186px; height: 54px;display: block;font-size: 0;}
+.list_xlh{margin: 40px auto;width: 472px;}
+.list_xlh li{width: 86px;height: 90px;background-color: #f7debe;float: left;margin: 0 16px;border-radius: 10px;}
+.list_xlh li p{color: #65462c;font-size: 42px;line-height: 90px;text-align: center;}
+.btn_qr{background-position:-563px -1585px; width: 186px; height: 54px;display: block;margin: 94px auto 0;font-size: 0;}
+
+.end{background-color: #b7b7b7}
+.zend{background-color: #f2dbbc}
+
+.nq_img{display: none;}
+
+.float{width: 184px;display: none;position: fixed;bottom: 50%;transform: translateY(50%) scale(0.9);transform-origin: right center; right: 0;z-index: 9;top: initial!important;}
+.list_nav{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/float1.png) no-repeat;width: 191px;height: 496px;display: block;}
+.list_nav a{font-size: 0;height: 67px;width: 191px;margin-bottom: 7px;display: block;}
+.list_nav a.on,.list_nav a:hover{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/float.png) no-repeat;}
+.list_nav .nav1.on ,.list_nav a.nav1:hover{background-position: 0 0;}
+.list_nav .nav2.on ,.list_nav a.nav2:hover{background-position: 0 -74px;}
+.list_nav .nav3.on ,.list_nav a.nav3:hover{background-position: 0 -148px;}
+.list_nav .nav4.on ,.list_nav a.nav4:hover{background-position: 0 -222px;}
+.list_nav .nav5.on ,.list_nav a.nav5:hover{background-position: 0 -296px;}
+.list_nav .nav6.on ,.list_nav a.nav6:hover{background-position: 0 -370px;}
+.btn_top{width: 100%;height: 51px;display: block;margin-top: -52px;}
+.code{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/erweim_bg.png) no-repeat;width: 176px;height: 262px;display: block;box-sizing: border-box;padding-top: 213px;margin: 15px auto 0;}
+.btn_kf{width: 155px;height: 38px;display: block;margin: 0 auto;font-size: 0;}
+
+/*????*/
+.pop_text {
+    font-size: 18px;
+    color: #8A7B52;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.pop_list {
+    width: 623px;
+    height: 585px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.pop_list .rty {
+    font-size: 20px;
+    color: #8A7B52;
+    text-align: center;
+    line-height: 54px;
+    border-bottom: 1px solid #8A7B52;
+}
+
+.pop_text1 {
+    font-size: 18px;
+    color: #8A7B52;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 17px;
+}
+
+
+.video_box{width:100%;height:1080px;position: relative;top: 0;left:0;z-index:9;overflow: hidden;min-width: 1200px;}
+.video_box video {width: 1920px;height:1080px;position: absolute;left: 50%;margin-left: -960px;}
+.video_box img{position: absolute;bottom: 0;left: 50%;margin-left: -448px;}
+
+/*????*/
+#showCalendar_list td{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 3px 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+/*::-webkit-scrollbar-track-piece {*/
+    /*background-color: #5c2727;*/
+/*}*/
+
+/* 数字卡 */
+.pop2{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop2.png) no-repeat;width: 693px;height: 520px;box-sizing: border-box;padding: 64px 40px 0;}
+.pop2 .list_card{background: transparent;margin: 40px auto 0;padding: 0!important;width: 125%;height: auto;transform: scale(0.8);transform-origin: left top;}
+.pop2 .card_bg{width: 124px;height: 181px;margin: 0 auto;}
+.pop2 .list_card li{width: 139px;margin: 0 7px 10px; }/* zoom: 0.8;-moz-transform: scale(0.8); */
+.btn_pdh{background-position:-1019px -1222px; width: 139px; height: 33px;display: block;margin: 10px auto 0;color: #4c310a;font-size: 20px;font-family: "font"; text-align: center;line-height: 34px;}
+.btn_pdh.grey{background-position: -1183px -1222px;color: #2b2b2b;}
+
+
+/* 分享 */
+.pop3{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop3.png) no-repeat;width: 893px;height: 380px;box-sizing: border-box;padding: 40px 20px; display: none; }
+.pop3 .p_tit{font-size: 40px;font-weight: bold;}
+.pop3 .code_box{margin:30px auto 0;width: 842px;}
+
+.pcode{float: left;background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/code_box.png) no-repeat;width: 226px;height: 189px;box-sizing: border-box;padding: 9px 8px 9px 46px;}
+.code_pic{height: 171px;width: 171px;display: block;}
+.code_pic img{display: block;width: 100%;margin: 0 auto;}
+.share_box{width: 600px;float: right;}
+.pop3 .share_box{ margin-top: 40px;}
+.btn_share1,.btn_share2,.btn_share3,.btn_share4{width: 282px; height: 61px;display: block;float: left;margin-right: 18px;font-size: 0;margin-bottom: 16px;}
+.btn_share1{background-position: -851px -1343px;}
+.btn_share2{background-position: -1162px -1343px;}
+.btn_share3{background-position: -851px -1425px;}
+.btn_share4{background-position: -1162px -1425px;}
+.btn_copy{background-position:-1273px -1497px; width: 121px; height: 41px;float: right;font-size: 0;}
+.copy_box{width: 550px;margin: 0 auto;}
+.copy_box input{width: 394px;height: 36px;background-color: #b3443e;outline: none;font-size: 20px;color: #fafcfe;box-sizing: border-box;padding:0 10px;float: left;line-height:36px;border: none;}
+.copy_box input::placeholder{ color: #ffffff; }
+.copy_box input::-webkit-input-placeholder{ color: #ffffff; }
+.copy_box input:-moz-placeholder{ color: #ffffff; }
+.copy_box input::-moz-placeholder{ color: #ffffff; }
+.copy_box input:-ms-input-placeholder{ color: #ffffff; }
+
+.pop4{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop4.png) no-repeat 50% 0;width: 490px;height: 690px;box-sizing: border-box;padding: 40px 27px 0; display: none; position: absolute;
+    margin: 0 auto;
+    top: 1370px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;}
+.list_jl{max-height: 490px;overflow: auto;}
+.pop4 .ptxt{ padding-top: 50px; font-size: 20px; color: #ffffff; }
+.list_jl li{background-color: #7a2e29;border-bottom: 1px solid #813834;width: 100%;color: #fff;font-size: 18px;text-align: center;line-height: 40px;}
+.ptxt1{color: #ffffff;font-size: 18px;line-height: 1.3;padding-top: 15px;}
+
+.pop5{background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop5.png) no-repeat 50% 0;width: 490px;height: 374px;box-sizing: border-box;padding: 40px 27px 0; display: none; position: absolute;
+    margin: 0 auto;
+    top: 1370px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;}
+.pop5 .ptxt{ padding-top: 50px; font-size: 20px; color: #ffffff; }
+
+/* 概率 */
+.pop-glgs{ width: 817px; height: 846px; background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop-glgs.png) no-repeat 50% 0; box-sizing: border-box; padding: 40px 10px 0; }
+.pop-glgs .pop-tab{ width: 743px; margin: 0 auto; border-bottom: 2px solid #9e3429; display: flex; justify-content: space-between; }
+.pop-glgs .pop-tab a{ background-position:-353px -1731px; width: 245px; height: 64px; text-align: center; line-height: 64px; font-size: 20px; color: #cecece; }
+.pop-glgs .pop-tab a.on{ background-position:-48px -1731px;color: #ffffff;}
+.pop-glgs .tab-ct{ width: 721px; margin: 10px auto 0; }
+.pop-glgs .gl-pic1{ background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/gl_zjc.png) no-repeat 50% 0; width: 721px; height: 674px; }
+.pop-glgs .gl-pic2{ background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/gl_aybx.png) no-repeat 50% 0; width: 721px; height: 204px; }
+.pop-glgs .gl-pic3{ background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/gl_szcq.png) no-repeat 50% 0; width: 721px; height: 474px; }
+/* .pop-glgs .dia-con{ width: auto; background-color: transparent;height: 722px; overflow-y: auto; }
+.pop-glgs .dia-con .tab th{ background-color:transparent;height: 60px; }
+.pop-glgs .dia-con .tab td{ background-color:transparent; } */
+
+/* 我的幸运签 */
+.pop-xyq{ width: 693px; height: 520px; background: url(//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop-xyq.png) no-repeat 50% 0; box-sizing: border-box;padding-top: 55px;}
+.pop-xyq .dia-con{width:auto;}
+
+
+/*开发*/
+.list_card li p{
+    width: 170px;
+}

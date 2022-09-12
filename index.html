@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>传说暗裔</title>
+		<link href="css/pc.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div
+			style="display: flex;align-items: center;justify-content: center;position: absolute;top: 0;left: 0;width: 100%;color: #fff;height: 42px;font-size: 30px;background-color: #487C9D;">
+			传说暗裔模拟抽奖
+		</div>
+		<div class="wrap1">
+			<div class="wrap2">
+				<div class="video_box">
+					<video id="video1" class="video1"
+						src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/head_v.mp4" autoplay="autoplay"
+						loop="loop" muted="muted"></video>
+				</div>
+				<div class="container">
+					<div class="par mao" id="mk1">
+						<div class="lottery pr">
+							<div class="lottery1"></div>
+							<a class="btn_box" href="javascript:;" onclick="PTTSendClick('btn','box','box')">
+								<img class="pop_s" height="349"
+									src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/pop_s.png"
+									width="554" /></a>
+							<div class="lotxtx">
+								<div class="ltxt">
+									<p>您当前的抽奖次数：<span class="_1578" id="count">0</span></p>
+									<p>您当前剩余的暗裔币数：<span class="_1581" id="ayb">0</span></p>
+								</div>
+								<p class="ptxts">您累积获得的暗裔币数：<span class="_1585">0</span><br /></p>
+								<a class="btn_cj1 chou chou1" href="javascript:;">抽1次</a>
+								<a class="btn_cj10 chou chou10" href="javascript:;">抽十次</a>
+							</div>
+						</div>
+					</div>
+					<h3 class="btit"><em class="b_l sp"></em>获奖记录<em class="b_r sp"></em></h3>
+					<div style="width: 100%;display: flex;justify-content: space-around;align-items: center;">
+						<div id="counts" style="color: #fff;font-size: 20px;"></div>
+						<div class="ztxbox">
+							<p style="font-size: 20px;color: #Fff;">可开启暗裔宝箱数x<span id="aybx">0</span></p>
+							<p>宝箱内为 传说暗裔随机序列号版 幸运签x1  暗裔币X5</p><br />
+							<a class="btn_looks sp" href="javascript:;">点击开启暗裔宝箱</a>
+						</div>
+					</div>
+					<div class="par1 mao" id="mk2">
+						<h2 class="sp db">暗裔币兑换</h2>
+						<div class="lucky c">
+							<div class="lucky_l c">
+								<p>传说暗裔随机序列号</p>
+								<div class="c lbtn">
+									<a class="btn_dhw sp fr dh" href="javascript:;" id="0">20张幸运签+6600暗裔币兑换</a>
+								</div>
+								<p class="lucktxt2"><span>当前累计暗裔币：<em class="_1585">0</em></span><span>当前剩余可使用暗裔币：<em
+											class="_1581">0</em></span><span>当前剩余未中签幸运签数量：<em
+											class="_ret_luck_num" id="xyq">0</em></span></p>
+							</div>
+						</div>
+						<ul class="list_prop c">
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic1.png" />
+								<p>传说暗裔无序列号版</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="1">4500暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic2.png" />
+								<p>鹰</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="2">2200暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic3.png" />
+								<p>王者星神</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="3">1300暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic4.png" />
+								<p>觉醒版超新星-悦享</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="4">1000暗裔币兑换</a>
+							</li>
+						</ul>
+						<ul class="list_props c">
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic5.png" />
+								<p>Scar Light-白虎</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="5">1000暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic6.png" />
+								<p>炫金火麒麟</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="6">600暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic7.png" />
+								<p>M4A1-黑骑士</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="7">400暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic8.png" />
+								<p>A背包套装-手雷包</p>
+								<a class="btn_dh sp dh" href="javascript:;" id="8">300暗裔币兑换</a>
+							</li>
+						</ul>
+						<ul class="list_props c">
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic9.png" />
+								<p>超能力少女兑换券</p>
+								<a class="btn_dhs sp dh" href="javascript:;" id="9">300暗裔币兑换</a>
+							</li>
+							<li>
+								<img src="//game.gtimg.cn/images/actdaoju/act/a20220810makewish/prop_pic10.png" />
+								<p>王者星神原始光效</p>
+								<a class="btn_dhs sp dh" href="javascript:;" id="10">80暗裔币兑换</a>
+							</li>
+
+					</div>
+				</div>
+			</div>
+
+
+			<!--中奖记录start 10连-->
+			<div class="pop4 pr" id="popJl">
+				<p class="ptxt">抽奖过程中请勿刷新页面或中断，请以实际礼包记录为准。</p>
+				<ul class="list_jl" id="choulist">
+					<!-- <li>xxxxxxxxxxxxxx</li> -->
+				</ul>
+				<p class="ptxt1">温馨提示:1.虚拟道具奖品将不会发到您的游戏仓库。谢谢您的理解与支持.由于数据量巨大，奖励道具显示将有所延迟，或可存在不展示的情况，请以礼包记录为准。</p>
+				<a class="close sp db" href="javascript:;" title="关闭">×</a>
+			</div>
+			<!--中奖记录end-->
+
+			<!--中奖记录start 单抽-->
+			<div class="pop5 pr" id="popdc">
+				<p class="ptxt">抽奖过程中请勿刷新页面或中断，请以实际礼包记录为准。</p>
+				<ul class="list_jl">
+					<li id="jlname"></li>
+				</ul>
+				<p class="ptxt1">温馨提示:1.虚拟道具奖品将不会发到您的游戏仓库。谢谢您的理解与支持.由于数据量巨大，奖励道具显示将有所延迟，或可存在不展示的情况，请以礼包记录为准。</p>
+				<a class="close sp db" href="javascript:;" title="关闭">×</a>
+			</div>
+			<!--中奖记录end-->
+
+
+			<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+			<script type="text/javascript">
+				alert("仅用作抽奖概率模拟，抽到物品不会发往仓库，侵删")
+				var gift = {
+					ayb: 0,
+					aybx: 0,
+					xyq: 0,
+					count: 0,
+					ayb_count: 0
+				}
+				// 奖品栏
+				const giftList = [
+					"传说暗裔 无序列号版",
+					"鹰",
+					"王者星神",
+					"觉醒版超新星-悦享",
+					"Scar Light-白虎",
+					"炫金火麒麟",
+					"M4A1-黑骑士",
+					"A背包套装-手雷包",
+					"超能力少女兑换券",
+					"王者星神原始光效",
+					"暗裔宝箱",
+					"暗裔币x100",
+					"暗裔币x50",
+					"暗裔币x20",
+					"暗裔币x10",
+					"暗裔币x5",
+					"传说暗裔随机序列号版 幸运签"
+				];
+				// 奖品兑换栏
+				var giftsList = [{
+						name: "传说暗裔 序列号版",
+						num: 6600,
+						count: 0
+					},
+					{
+						name: "传说暗裔 无序列号版",
+						num: 4500,
+						count: 0
+					},
+					{
+						name: "鹰",
+						num: 2200,
+						count: 0
+					},
+					{
+						name: "王者星神",
+						num: 1300,
+						count: 0
+					},
+					{
+						name: "觉醒版超新星-悦享",
+						num: 1000,
+						count: 0
+					},
+					{
+						name: "Scar Light-白虎",
+						num: 1000,
+						count: 0
+					},
+					{
+						name: "炫金火麒麟",
+						num: 600,
+						count: 0
+					},
+					{
+						name: "M4A1-黑骑士",
+						num: 400,
+						count: 0
+					},
+					{
+						name: "A背包套装-手雷包",
+						num: 300,
+						count: 0
+					},
+					{
+						name: "超能力少女兑换券",
+						num: 300,
+						count: 0
+					},
+					{
+						name: "王者星神原始光效",
+						num: 80,
+						count: 0
+					}
+				]
+				giftList.entries();
+
+				$(function() {
+					// 主奖池
+					let random = new GLRandom(1, 17);
+					// 宝箱奖池
+					let randoms = new GLRandom(16, 18);
+					random.setCount();
+					// 宝箱奖池
+					random.percentage = new Map([
+						[1, 0.1],
+						[2, 0.4]
+					]);
+					// 主奖品对应概率
+					random.percentage = new Map([
+						[1, 0.001],
+						[2, 0.002],
+						[3, 0.003],
+						[4, 0.0035],
+						[5, 0.0035],
+						[6, 0.006],
+						[7, 0.008],
+						[8, 0.01],
+						[9, 0.01],
+						[10, 0.013],
+						[11, 0.122],
+						[12, 0.002],
+						[13, 0.016],
+						[14, 0.1],
+						[15, 0.3],
+						[16, 0.4]
+					]);
+					// 生成值区间
+					random.range();
+					randoms.range();
+					// 单抽
+					$(".chou1").click(() => {
+						gift.count += 1;
+						setTimeout(() => {
+							$("#popdc").css("display", "block");
+							let gifts = giftList[random.create() - 1];
+							random.checkGifts(gifts);
+							$("#jlname").text(gifts);
+						}, 200);
+					})
+					// 十连
+					$(".chou10").click(() => {
+						gift.count += 10;
+						setTimeout(() => {
+							$("#popJl").css("display", "block")
+							let p = ``;
+							for (let i = 0; i < 10; i++) {
+								let gifts = giftList[random.create() - 1];
+								random.checkGifts(gifts);
+								p += `<li>${gifts}</li>`;
+								$("#choulist").html(p);
+							}
+						}, 200)
+					})
+					// 开启暗裔宝箱
+					$(".btn_looks").click(() =>{
+						if(gift.aybx >= 1){
+							$("#popdc").css("display", "block");
+							let gifts = giftList[randoms.create() - 1];
+							randoms.checkGifts(gifts);
+							gift.aybx -= 1;
+							$("#jlname").text(gifts);
+							$("#aybx").text(gift.aybx);
+							$("#xyq").text(gift.xyq);
+						}else{
+							alert("暗裔宝箱不足哦~");
+						}
+					})
+					// 奖品兑换
+					$(".dh").click(() => {
+						random.exchangeGfits($(this).attr("activeElement").id);
+					})
+					// 中奖信息关闭
+					$(".close").click(() => {
+						$("#popJl").css("display", "none");
+						$("#popdc").css("display", "none");
+					})
+				})
+				class GLRandom {
+					// 设置已抽奖品数
+					setCount() {
+						let span = ``;
+						giftsList.forEach((item, index) => {
+							span += `<span>${item.name} x${item.count}</span><br />`;
+						})
+						$("#counts").html(span);
+						$("._1585").text(gift.ayb_count);
+						$("._1581").text(gift.ayb);
+						$("#aybx").text(gift.aybx);
+						$("#xyq").text(gift.xyq);
+					}
+					exchangeGfits(gifts) {
+						giftsList.forEach((item, index) => {
+							if (gifts == index) {
+								if (gift.ayb >= item.num) {
+									if(index == 0){
+										if(gift.xyq >= 20){
+											gift.xyq -= 20;
+										}else{
+											alert("幸运签不足哦~");
+											return ;
+										}
+									}
+									gift.ayb -= item.num;
+									item.count += 1;
+									alert(`您已兑换 ${item.name}`);
+								} else {
+									alert("暗裔币不足哦~")
+								}
+							}
+						})
+						this.setCount();
+					}
+					checkGifts(gifts, status) {
+						if (gifts == "暗裔宝箱") {
+							gift.aybx += 1;
+						}
+						if (gifts == "暗裔币x5") {
+							gift.ayb += 5;
+							gift.ayb_count += 5;
+						}
+						if (gifts == "暗裔币x10") {
+							gift.ayb += 10;
+							gift.ayb_count += 10;
+						}
+						if (gifts == "暗裔币x20") {
+							gift.ayb += 20;
+							gift.ayb_count += 20;
+						}
+						if (gifts == "暗裔币x50") {
+							gift.ayb += 50;
+							gift.ayb_count += 50;
+						}
+						if (gifts == "暗裔币x100") {
+							gift.ayb += 100;
+							gift.ayb_count += 100;
+						}
+						if (gifts == "传说暗裔随机序列号版 幸运签") {
+							gift.xyq += 1;
+						}
+						giftsList.map((item, inedx) => {
+							if (item.name == gifts) {
+								item.count += 1;
+							}
+						})
+
+						this.setCount();
+						$("#ayb").text(gift.ayb);
+						$("#count").text(gift.count);
+					}
+					/**
+					 * 构造函数
+					 * @param {number} min  最小整数值
+					 * @param {number} max  最大整数值
+					 * @param {Map} percentage 概率数 [值,百分比]
+					 */
+					constructor(min, max, percentage = new Map()) {
+						// 取整
+						this.min = Math.trunc(min);
+						this.max = Math.trunc(max);
+						// 分成100份
+						this.MATH_RANGE = 100;
+						// 初始化Map
+						this.percentage = percentage;
+					}
+					get percentage() {
+						if (!this._percentage) {
+							this._percentage = new Map();
+						}
+						return this._percentage;
+					}
+					/**
+					 * 分配比例
+					 * @param {Map} map 设置 值-百分比
+					 */
+					set percentage(map) {
+						let result = Array.from(map.values()).reduce((p, v, a) => {
+							return p - v;
+						}, 1);
+						for (let i = this.min; i < this.max; i++) {
+							if (map.has(i)) {
+								this.percentage.set(i, map.get(i));
+							} else {
+								this.percentage.set(i, result / (this.max - this.min - map.size));
+							}
+						}
+					}
+					/**
+					 * 根据比例生成取值范围
+					 */
+					range() {
+						let [start, random, keys] = [0, this.MATH_RANGE, Array.from(this.percentage.keys())];
+						for (let i = 0; i < keys.length; i++) {
+							let temp = this.percentage.get(keys[i]);
+							this.percentage.set(keys[i], [start, start += temp * random]);
+						}
+					}
+					/**
+					 * 生成随机数
+					 */
+					create() {
+						let num = Math.random() * this.MATH_RANGE;
+						for (let data of this.percentage.entries()) {
+							if (num >= data[1][0] && num < data[1][1]) {
+								return data[0];
+							}
+						}
+						return null;
+					}
+				}
+			</script>
+
+	</body>
+</html>
